@@ -1,0 +1,7 @@
+includedir=/usr/include/mirplatform
+
+Name: mir-client-platform-mesa
+Description: Mir Mesa client platform development files
+Version: 0.21.0
+Requires.private: mirclient
+Cflags: -I${includedir}
