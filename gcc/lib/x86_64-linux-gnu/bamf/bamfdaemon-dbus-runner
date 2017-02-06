@@ -1,7 +1,0 @@
-#!/bin/bash
-
-if [ -n "$UPSTART_SESSION" ]; then
-  /sbin/initctl start bamfdaemon
-else
-  /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
-fi
